@@ -8,7 +8,7 @@ I work on cloud and network infrastructure.
 
 ### Skills
 
-<img src="https://skillicons.dev/icons?i=aws,terraform,docker,githubactions,datadog" alt="AWS, Terraform, Docker, GitHub Actions, Datadog" />
+<img src="https://skillicons.dev/icons?i=aws,terraform,docker,githubactions" alt="AWS, Terraform, Docker, GitHub Actions" />
 
 ### Project
 
