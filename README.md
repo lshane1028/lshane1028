@@ -1,44 +1,30 @@
 ## Eddy
 
-AWS 기반 클라우드 인프라를 설계하고 구축합니다.
-
-<br/>
+I build cloud infrastructure on AWS.
 
 ### Certifications
 
-<a href="https://www.credly.com/badges/f1e98778-50f6-410e-9e34-7978a2f5c14c/public_url"><img src="https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" width="110" alt="AWS Certified Solutions Architect – Associate" /></a>
+<a href="https://www.credly.com/badges/f1e98778-50f6-410e-9e34-7978a2f5c14c/public_url"><img src="https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" width="90" alt="AWS Certified Solutions Architect – Associate" /></a>
 
 - AWS Certified Solutions Architect – Associate
-- 정보처리기사
+- Engineer Information Processing (Korean national certification)
 
-<br/>
+### Skills
 
-### Tech Stack
-
-<p>
-  <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square" />
-  <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white" />
-</p>
-
-<br/>
+AWS · Terraform · Docker · GitHub Actions · Datadog
 
 ### Project
 
-**[Focus Tracking Platform](https://github.com/lshane1028/focus-tracking-platform)** · 클라우드 인프라 담당
+**[Focus Tracking Platform](https://github.com/lshane1028/focus-tracking-platform)** — cloud infrastructure
 
-웹캠 기반 학습 집중도 분석 서비스의 AWS 인프라를 구축했습니다.
+AWS infrastructure for a webcam-based study focus analytics service.
 
-- 서울 리전 2-AZ VPC 설계 (서브넷, 라우팅, NAT, 보안그룹)
-- ECS Fargate(앱) + EC2(ML·Redis) + RDS PostgreSQL Multi-AZ 구성
-- Terraform 모듈화, S3·DynamoDB 원격 상태로 인프라 코드 관리
-- GitHub Actions(OIDC) + CodeDeploy Blue/Green 무중단 배포
-- CloudWatch·SNS·Datadog 알람, 야간 자동 정지로 비용 절감
-
-<br/>
+- Designed a 2-AZ VPC in ap-northeast-2 (subnets, routing, NAT, security groups)
+- Ran the app on ECS Fargate, the ML service and Redis on EC2, and PostgreSQL on RDS Multi-AZ
+- Managed the infrastructure as code with Terraform modules and S3/DynamoDB remote state
+- Set up zero-downtime deployments with GitHub Actions (OIDC) and CodeDeploy blue/green
+- Configured CloudWatch, SNS, and Datadog alerts, and scheduled nightly shutdowns to cut costs
 
 ---
 
-Blog · [eddy1028.tistory.com](https://eddy1028.tistory.com/)
+Blog: [eddy1028.tistory.com](https://eddy1028.tistory.com/)
