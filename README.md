@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>Eddy</h1>
+<h1>NyeongHwan Lee</h1>
 <p>Cloud &amp; Network Infrastructure</p>
 
 <br/>
